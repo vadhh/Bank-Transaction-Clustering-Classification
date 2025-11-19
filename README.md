@@ -13,18 +13,6 @@ Proyek ini diselesaikan sebagai bagian dari **Submission Akhir** kelas **Belajar
 | **Clustering (Unsupervised)** | K-Means, Elbow Method, PCA (Opsional) | Mengelompokkan data transaksi menjadi `k` segmen pelanggan dan membuat kolom `Target`. |
 | **Classification (Supervised)** | Decision Tree, Hyperparameter Tuning (GridSearch) | Melatih model untuk memprediksi `Target` (segmen) berdasarkan fitur transaksi. |
 
----
-
-## 📂 Struktur Repositori
-├── [Clustering]_Submission_Akhir_BMLP_Afridho_Tattaq_Tavadhu.ipynb # Notebook untuk Clustering dan Preprocessing 
-├── [Klasifikasi]_Submission_Akhir_BMLP_Afridho_Tattaq_Tavadhu.ipynb # Notebook untuk Klasifikasi dan Tuning 
-├── data_clustering.csv # Hasil ekspor data setelah Clustering (dengan kolom 'Target') 
-├── model_clustering.h5 # Model K-Means yang sudah dilatih 
-├── PCA_model_clustering.h5 # Model K-Means yang dilatih pada data hasil PCA (Opsional Advanced) 
-├── decision_tree_model.h5 # Model Decision Tree Dasar 
-└── tuning_classification.h5 # Model Decision Tree Terbaik setelah Hyperparameter Tuning
-
----
 
 ## 📊 Hasil dan Analisis Clustering (Unsupervised Learning)
 
